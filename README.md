@@ -1,6 +1,8 @@
 # WXCameraButton
 # 防微信拍照录视频按钮
 
+<div align="center"> <image src="https://github.com/Golabe/WXCameraButton/blob/master/gifs/gif.gif?raw=true" width=500/></div>
+
 ### xml
 ```xml
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"

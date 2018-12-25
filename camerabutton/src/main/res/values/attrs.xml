@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WXCameraButton">
+        <attr name="outsideCircleColor" format="color" />
+        <attr name="innerCircleColor" format="color" />
+        <attr name="progressColor" format="color"/>
+        <attr name="progressBorderWidth" format="dimension"/>
+        <attr name="progressDuration" format="integer"/>
+    </declare-styleable>
+</resources>

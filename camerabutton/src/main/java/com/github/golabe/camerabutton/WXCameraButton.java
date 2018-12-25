@@ -217,7 +217,7 @@ public class WXCameraButton extends View {
                         progressAnimator.cancel();
                         endAnimation.start();
                         if (onWxTouchListener != null) {
-                            onWxTouchListener.onLongUp();
+                            onWxTouchListener.onLongClickUp();
                         }
                     }
                     break;

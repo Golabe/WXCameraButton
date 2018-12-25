@@ -2,14 +2,13 @@ package com.github.golabe.wxcamerabutton;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.widget.Toast;
 
 import com.github.golabe.camerabutton.OnWXTouchListener;
 import com.github.golabe.camerabutton.WXCameraButton;
 
 public class MainActivity extends AppCompatActivity {
     private WXCameraButton btnWx;
-    private static final String TAG = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,22 +17,22 @@ public class MainActivity extends AppCompatActivity {
         btnWx.setOnWxTouchListener(new OnWXTouchListener() {
             @Override
             public void onClick() {
-                Log.d(TAG, "onClick: ");
+                Toast.makeText(MainActivity.this,"click",Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onLongClick() {
-                Log.d(TAG, "onLongClick: ");
+                Toast.makeText(MainActivity.this,"onLongClick",Toast.LENGTH_SHORT).show();
             }
 
             @Override
-            public void onLongUp() {
-                Log.d(TAG, "onLongUp: ");
+            public void onLongClickUp() {
+                Toast.makeText(MainActivity.this,"onLongClickUp",Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void finish() {
-                Log.d(TAG, "finish: ");
+                Toast.makeText(MainActivity.this,"finish",Toast.LENGTH_SHORT).show();
             }
         });
     }

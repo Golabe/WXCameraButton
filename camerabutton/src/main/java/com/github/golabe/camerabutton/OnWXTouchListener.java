@@ -5,7 +5,7 @@ public interface OnWXTouchListener {
 
     void onLongClick();
 
-    void onLongUp();
+    void onLongClickUp();
 
     void finish();
 }
